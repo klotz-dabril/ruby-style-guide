@@ -3,7 +3,7 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = "rubocop-conviso"
-  s.version     = "2.8.0"
+  s.version     = "0.0.1"
   s.summary     = "Conviso's style guide for Ruby."
   s.description = "Gem containing the rubocop.yml config that corresponds to "\
     "the implementation of the Conviso's style guide for Ruby."
@@ -18,7 +18,6 @@ Gem::Specification.new do |s|
 
   s.metadata = {
     "source_code_uri" => "https://github.com/klotz-dabril/ruby-style-guide/tree/v#{s.version}",
-    "allowed_push_host" => "https://rubygems.org",
   }
 
   s.required_ruby_version = ">= 2.7.0"
