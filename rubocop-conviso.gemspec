@@ -2,22 +2,22 @@
 
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
-  s.name        = "rubocop-shopify"
+  s.name        = "rubocop-conviso"
   s.version     = "2.8.0"
-  s.summary     = "Shopify's style guide for Ruby."
+  s.summary     = "Conviso's style guide for Ruby."
   s.description = "Gem containing the rubocop.yml config that corresponds to "\
-    "the implementation of the Shopify's style guide for Ruby."
+    "the implementation of the Conviso's style guide for Ruby."
 
   s.license = "MIT"
 
-  s.author   = "Shopify Engineering"
-  s.email    = "gems@shopify.com"
-  s.homepage = "https://shopify.github.io/ruby-style-guide/"
+  s.author   = "Conviso Engineering"
+  s.email    = "klotz.dabril@gmail.com"
+  s.homepage = "https://github.com/klotz-dabril/ruby-style-guide"
 
   s.files = ["rubocop.yml", "rubocop-cli.yml"]
 
   s.metadata = {
-    "source_code_uri" => "https://github.com/Shopify/ruby-style-guide/tree/v#{s.version}",
+    "source_code_uri" => "https://github.com/klotz-dabril/ruby-style-guide/tree/v#{s.version}",
     "allowed_push_host" => "https://rubygems.org",
   }
 
